@@ -200,32 +200,9 @@ Reported metrics include:
 
 A typical analysis of `data/sample.log` will show the total number of input lines, valid/invalid records, counts for all five severities, and the most frequent ERROR/CRITICAL messages. Exact benchmark times depend on the machine and dataset and are intentionally measured at runtime.
 
-## 15. C++ concepts demonstrated
 
-- **OOP / separation of concerns:** dedicated classes for parsing, reading, analysis, benchmarking, reporting, and concurrency.
-- **STL:** `vector`, `array`, `unordered_map`, `queue`, `future`, `filesystem`, algorithms, strings, streams.
-- **Pointers / memory:** references, move semantics, `unique_ptr`, `shared_ptr`, RAII.
-- **File handling:** streaming `ifstream` and output reports.
-- **OS/concurrency fundamentals:** worker threads, blocking queues, synchronization, task scheduling.
-- **Exception handling:** explicit errors for missing files, invalid operations, report creation, and benchmark mismatches.
-- **Performance:** bounded task sizes, move operations, reserve calls, steady-clock measurements.
-- **Build engineering:** CMake and CTest.
 
-## 16. Future enhancements
 
-- Regex-based advanced query language.
-- JSON output using an optional serialization dependency.
-- Memory-mapped files for specialized high-throughput workloads.
-- Streaming aggregation for virtually unlimited log sources.
-- Configurable parsing schemas for Apache/Nginx/custom logs.
-- Progress reporting for very large datasets.
-- Cross-platform CI with GitHub Actions and sanitizer jobs.
-
-## 17. GitHub showcase suggestion
-
-A strong repository description is:
-
-> High-performance C++17 log analyzer with streaming parsing, a reusable thread pool, sequential/parallel benchmarking, severity filtering, error-frequency analysis, and TXT/CSV reporting.
 
 Suggested resume bullets:
 
