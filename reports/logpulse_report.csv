@@ -1,0 +1,15 @@
+metric,value
+total_entries,22
+valid_entries,20
+invalid_entries,2
+debug,3
+info,8
+warning,2
+error,5
+critical,2
+
+error_message,count
+"Database connection timeout",3
+"Failed to process customer request",2
+"Message queue unavailable",1
+"Payment service unavailable",1

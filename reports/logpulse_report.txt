@@ -1,0 +1,17 @@
+LogPulse Analysis Report
+========================
+Total log entries: 22
+Valid entries: 20
+Invalid entries: 2
+DEBUG: 3
+INFO: 8
+WARNING: 2
+ERROR: 5
+CRITICAL: 2
+
+Most frequent error messages
+----------------------------
+3 | Database connection timeout
+2 | Failed to process customer request
+1 | Message queue unavailable
+1 | Payment service unavailable

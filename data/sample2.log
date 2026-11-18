@@ -1,0 +1,8 @@
+2026-11-18 10:00:00 [INFO] API server started
+2026-11-18 10:00:01 [DEBUG] Loading route definitions
+2026-11-18 10:00:02 [WARNING] Slow request detected
+2026-11-18 10:00:03 [ERROR] Authentication service timeout
+2026-11-18 10:00:04 [ERROR] Authentication service timeout
+2026-11-18 10:00:05 [CRITICAL] Authentication service unavailable
+not-valid
+2026-11-18 10:00:07 [INFO] Authentication service recovered
